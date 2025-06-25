@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/ykarous/water/releases/tag/test/waterbear.zip
-SOURCE_SUM=sha256:fabd9c2c50593808c65e1b3f216a668bde3b74cde1e7812908026deb120f3251
+SOURCE_SUM=sha256:3884d902139ce59dfbc838ba885ff9f66a0d3241601d4e16d2f8d974612a0ae8
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
