@@ -1,0 +1,48 @@
+{
+    "name": "Waterbear",
+    "id": "waterbear",
+    "packaging_format": 1,
+    "description": {
+        "en": "Library management software",
+        "fr": "Logiciel de gestion de bibliothèque"
+    },
+    "version": "25.02.2021~ynh1",
+    "url": "waterbear.info/",
+    "upstream": {
+        "license": "GPL-3.0-only",
+        "website": "waterbear.info/",
+        "admindoc": "http://waterbear.info/doc/doc.php",
+        "userdoc": "https://indexmailwaterbear.wordpress.com/"
+    },
+    "license": "GPL-3.0-only",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": false,
+    "services": [
+        "nginx",
+        "php7.3-fpm",
+        "mysql"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "password",
+                "type": "password"
+            }
+        ]
+    }
+}
